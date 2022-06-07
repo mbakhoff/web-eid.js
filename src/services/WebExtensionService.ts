@@ -44,7 +44,7 @@ export default class WebExtensionService {
   }
 
   private receive(event: { data: ExtensionResponse }): void {
-    if (!/^web-eid:/.test(event.data?.action)) return;
+    if (!/^web-eid-batch:/.test(event.data?.action)) return;
 
     const message       = event.data;
     const suffix        = message.action?.match(/success$|failure$|ack$/)?.[0];

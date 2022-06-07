@@ -88,7 +88,7 @@ export interface NativeSignResponse {
   /**
    * The base64-encoded signature
    */
-  signature: string;
+  signature: string[];
 }
 
 export type NativeQuitResponse = Record<string, never>; // Empty object

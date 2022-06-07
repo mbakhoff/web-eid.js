@@ -24,13 +24,13 @@ export default {
     {
       file:      "dist/iife/web-eid.js",
       format:    "iife",
-      name:      "webeid",
+      name:      "webeid_batch",
       sourcemap: true,
     },
     {
       file:      "dist/iife/web-eid.min.js",
       format:    "iife",
-      name:      "webeid",
+      name:      "webeid_batch",
       sourcemap: false,
       plugins:   [terser()],
     },

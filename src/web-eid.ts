@@ -158,7 +158,7 @@ export async function getSigningCertificate(options?: ActionOptions): Promise<Li
 
 export async function sign(
   certificate: string,
-  hash: string,
+  hash: string[],
   hashFunction: string,
   options?: ActionOptions,
 ): Promise<LibrarySignResponse> {
@@ -168,7 +168,7 @@ export async function sign(
     throw new MissingParameterError("sign function requires a certificate as parameter");
   }
 
-  if (!hash) {
+  if (!hash || !hash.length) {
     throw new MissingParameterError("sign function requires a hash as parameter");
   }
 

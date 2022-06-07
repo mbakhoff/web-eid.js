@@ -83,7 +83,7 @@ export interface ExtensionSignRequest {
   /**
    * The Base64-encoded document hash
    */
-  hash: string;
+  hash: string[];
 
   /**
    * The hash algorithm

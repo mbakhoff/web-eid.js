@@ -129,7 +129,7 @@ export interface ExtensionSignResponse {
   /**
    * The base64-encoded signature
    */
-  signature: string;
+  signature: string[];
 }
 
 export interface ExtensionFailureResponse {

@@ -77,7 +77,7 @@ export interface NativeSignRequest {
     /**
      * The Base64-encoded document hash
      */
-    hash: string;
+    hash: string[];
 
     /**
      * The hash function

@@ -21,27 +21,27 @@
  */
 
 enum Action {
-  WARNING = "web-eid:warning",
+  WARNING = "web-eid-batch:warning",
 
-  STATUS         = "web-eid:status",
-  STATUS_ACK     = "web-eid:status-ack",
-  STATUS_SUCCESS = "web-eid:status-success",
-  STATUS_FAILURE = "web-eid:status-failure",
+  STATUS         = "web-eid-batch:status",
+  STATUS_ACK     = "web-eid-batch:status-ack",
+  STATUS_SUCCESS = "web-eid-batch:status-success",
+  STATUS_FAILURE = "web-eid-batch:status-failure",
 
-  AUTHENTICATE         = "web-eid:authenticate",
-  AUTHENTICATE_ACK     = "web-eid:authenticate-ack",
-  AUTHENTICATE_SUCCESS = "web-eid:authenticate-success",
-  AUTHENTICATE_FAILURE = "web-eid:authenticate-failure",
+  AUTHENTICATE         = "web-eid-batch:authenticate",
+  AUTHENTICATE_ACK     = "web-eid-batch:authenticate-ack",
+  AUTHENTICATE_SUCCESS = "web-eid-batch:authenticate-success",
+  AUTHENTICATE_FAILURE = "web-eid-batch:authenticate-failure",
 
-  GET_SIGNING_CERTIFICATE         = "web-eid:get-signing-certificate",
-  GET_SIGNING_CERTIFICATE_ACK     = "web-eid:get-signing-certificate-ack",
-  GET_SIGNING_CERTIFICATE_SUCCESS = "web-eid:get-signing-certificate-success",
-  GET_SIGNING_CERTIFICATE_FAILURE = "web-eid:get-signing-certificate-failure",
+  GET_SIGNING_CERTIFICATE         = "web-eid-batch:get-signing-certificate",
+  GET_SIGNING_CERTIFICATE_ACK     = "web-eid-batch:get-signing-certificate-ack",
+  GET_SIGNING_CERTIFICATE_SUCCESS = "web-eid-batch:get-signing-certificate-success",
+  GET_SIGNING_CERTIFICATE_FAILURE = "web-eid-batch:get-signing-certificate-failure",
 
-  SIGN         = "web-eid:sign",
-  SIGN_ACK     = "web-eid:sign-ack",
-  SIGN_SUCCESS = "web-eid:sign-success",
-  SIGN_FAILURE = "web-eid:sign-failure",
+  SIGN         = "web-eid-batch:sign",
+  SIGN_ACK     = "web-eid-batch:sign-ack",
+  SIGN_SUCCESS = "web-eid-batch:sign-success",
+  SIGN_FAILURE = "web-eid-batch:sign-failure",
 }
 
 export default Action;
